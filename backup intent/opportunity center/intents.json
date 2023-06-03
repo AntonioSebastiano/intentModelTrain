@@ -1,0 +1,69 @@
+{"intents": [
+  {"tag": "Buongiorno",
+  "patterns" : ["Ciao", "Buongiorno", "Mi senti", "Puoi sentirmi", "Puoi rispondermi"],
+  "responses": ["Ciao, buongiorno a te, vuoi farmi qualche domanda?"]
+  },
+  {"tag": "Domande",
+  "patterns" : ["vorrei farti qualche domanda", "mi piacerebbe farti qualche domanda", "cosa posso chiederti", "quali domande posso fare", "che domande posso fare"],
+  "responses": ["Puoi farmi domande sul mio funzionamento e sui principi dell’intelligenza artificiale, oppure puoi chiedermi informazioni sull’evento al quale stai partecipando"]
+  },
+  {"tag": "Dove mi trovo",
+  "patterns" : ["dove mi trovo", "dove sono", "vorrei informazioni sull'evento nel quale mi trovo", "vorrei informazioni sull'evento al quale sto partecipando", "di cosa tratta l'evento"],
+  "responses": ["Stai partecipando alla Manifestazione Orientalife, la scuola orienta per la vita"]
+  },
+  {"tag": "Funzionamento",
+  "patterns" : ["chi sei", "come fai a parlarmi", "come fai a rispondermi", "vorrei farti domande sull'intelligenza artificiale"],
+  "responses": ["Io sono un avatar interattivo, ne hai mai sentito parlare?"]
+  },
+  {"tag": "Avatar",
+  "patterns" : ["Molto interessante, ma non ho capito ","Ne ho sentito parlare, ma non ho capito molto", "Molto interessante, puoi spiegarmi di più", "che cos'è un avatar interattivo", "come capisci le mie domande", "come capisci quello che dico"],
+  "responses": ["Beh, quello che vedi è il risultato di un lungo lavoro, io sono il prodotto di una complessa elaborazione digitale connessa ad un sistema di reti neurali addestrate a comprendere i tuoi intent, processare le tue domande e fornirti risposte coerenti. Tutto dipende dalle informazioni immesse nel sistema al quale sono collegata."]
+  },
+  {"tag": "Rete neurale",
+  "patterns" : ["che cos'è un sistema di reti neurali", "cos'è una rete neurale"],
+  "responses": ["Una rete neurale è un metodo di intelligenza artificiale che insegna ai computer a elaborare i dati in un modo che si ispira al cervello umano"]
+  },
+  {"tag": "Curiosita",
+  "patterns" : ["come fai a conoscere tutte queste informazioni"],
+  "responses": ["Riesco a risponderti grazie ad un sistema di reti neurali"]
+  },
+  {"tag": "Parlammi di",
+  "patterns" : ["parlami di orientalife", " vorrei sapere di più sul'evento", "che cos'è orientalife", "che cos'è opportunity center", " parlami di opportunity center"],
+  "responses": ["Opportunity Center è un hub di competenze che contribuirà allo sviluppo del territorio attraverso la messa in campo di azioni per le piccole, medie e grandi aziende, al fine di aprire loro il mondo delle opportunità che possono favorire la crescita economica e competitiva"]
+  },
+  {"tag": "Presidente",
+  "patterns" : ["chi è il presidente della fondazione", " chi è il presidente di cultura e innovazione", "chi è riccardo iuzzolino"],
+  "responses": ["Riccardo Iuzzolino è il presidente della Fondazione Cultura e Innovazione"]
+  },
+  {"tag": "Scopo",
+  "patterns" : ["qual è lo scopo di opportuynity center", " dimmi di più su opportunity center", "quali sono i benefici di opportunity center"],
+  "responses": ["Opportunity Center ha lo scopo di incentivare lo scambio di fabbisogni, idee e conoscenze valorizzando le migliori esperienze e condividendo risultati, strategie e opportunità a beneficio di tutto il sistema imprenditoriale."]
+  },
+  {"tag": "Aiuto",
+  "patterns" : ["opportunity center può aiutarmi a trovale lavoro", "sarà più facile trovare lavoro", "come sarà utilizzato dalle aziende", "come viene definito il percorso professionale dello studente", "cosa deve fare lo studente"],
+  "responses": ["In un contesto così dinamico cresce l’importanza di una formazione adeguata e coerente alla richiesta di offerta delle nuove professioni future. Per questo motivo attraverso la costituzione di un Corner delle Competenze, istituito all’interno delle istituzioni scolastiche, sarà possibile intercettare le potenzialità dei giovani e fare incontrare necessità aziendali e mondo del lavoro"]
+  },
+  {"tag": "Napoli",
+  "patterns" : ["chi ha vinto lo scudetto", "qual è la squadra campione d'italia", "qual è la squadra più forte d'italia"],
+  "responses": ["Come fai a non saperlo? Il Napoli ovviamente!"]
+  },
+  {"tag": "Juventino",
+  "patterns" : ["chi non salta"],
+  "responses": ["juventino è!"]
+  },
+  {"tag": "Coro",
+  "patterns" : ["abbiamo un sogno nel cuore"],
+  "responses": ["napoli torna campione! il sognosi è avverato!"]
+  },
+  {"tag": "Maradona",
+  "patterns": ["chi è il calciatore nel cuore di tutti i napoletani?"],
+  "responses" : ["una leggenda della storia del calcio, Maradona"]
+  },
+  {"tag": "Osimhen",
+  "patterns": ["qual è il nome completo di Osimhen","come si chiama il centravanti del napoli"],
+  "responses" : ["Il nome completo del nostro eroe è victor james osimhen"]
+  },
+  {"tag": "Battuta",
+  "patterns" : ["chi è l'uomo più elegante di napoli?"],
+  "responses": ["indubbiamente l'uomo più elegante di napoli è Riccardo Iuzzolino"]  }
+]}

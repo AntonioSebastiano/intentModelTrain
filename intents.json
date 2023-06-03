@@ -1,0 +1,86 @@
+{"intents": [
+  {"tag": "Saluto",
+  "patterns" : ["Ciao", "Buongiorno", "Salve", "Hey", "Buonasera", "Buon pomeriggio"],
+  "responses": ["Ciao, vuoi farmi qualche domanda?", "Ciao, come posso aiutarti?"]
+  },
+  {"tag": "Orario partenza",
+  "patterns" : [
+    "A che ora parte il volo [numero_volo]?",
+    "Qual è l'orario di partenza del volo [numero_volo]?",
+    "Quando parte il volo [numero_volo]?",
+    "Vorrei sapere l'orario di partenza del volo [numero_volo]",
+    "Mi puoi dire a che ora parte il volo [numero_volo]?"
+  ],
+  "responses": [
+    "Il volo [numero_volo] parte alle [orario]",
+    "L'orario di partenza del volo [numero_volo] è alle [orario]",
+    "Il volo [numero_volo] parte alle [orario]. Assicurati di essere in aeroporto in tempo",
+    "La partenza del volo [numero_volo] è prevista per le [orario]",
+    "Il volo [numero_volo] è programmato per partire alle [orario]. Verifica eventuali aggiornamenti prima di recarti in aeroporto"
+  ]
+  },
+  {"tag": "Data partenza",
+  "patterns" : [
+    "Quando parte il volo [numero_volo]?",
+    "Qual è la data di partenza del volo [numero_volo]?",
+    "A che giorno è prevista la partenza del volo [numero_volo]?",
+    "Quando si tiene il volo [numero_volo]?",
+    "Mi puoi dire la data di partenza del volo [numero_volo]?"
+  ],
+  "responses": [
+    "Il volo [numero_volo] parte il [data]",
+    "La data di partenza del volo [numero_volo] è il [data]",
+    "Il volo [numero_volo] è programmato per partire il [data]",
+    "La partenza del volo [numero_volo] è prevista per il [data]",
+    "Il volo [numero_volo] partirà il [data]. Assicurati di essere in aeroporto in tempo"
+  ]
+  },
+  {
+    "tag": "Informazioni gate",
+    "patterns": [
+      "Dove si trova il gate per il volo [numero_volo]?",
+      "Qual è il gate di partenza per il volo [numero_volo]?",
+      "Mi puoi dire dove si trova il gate del volo [numero_volo]?",
+      "A che gate è assegnato il volo [numero_volo]?",
+      "Dove dovrei andare per il volo [numero_volo]?"
+    ],
+    "response": [
+      "Il gate di partenza per il volo [numero_volo] è il [gate]",
+      "Il gate per il volo [numero_volo] si trova al [gate]",
+      "Per il volo [numero_volo], il gate di partenza è il [gate]",
+      "Dovrai recarti al gate [gate] per il volo [numero_volo]",
+      "Il gate [gate] è assegnato al volo [numero_volo]"
+    ]
+  },
+  {
+    "tag": "Apertura gate",
+    "patterns": [
+      "A che ora apre il gate per il volo [numero_volo]?",
+      "Quando inizia l'imbarco per il volo [numero_volo]?",
+      "Qual è l'orario di apertura del gate per il volo [numero_volo]?",
+      "A che ora dovrei presentarmi al gate per il volo [numero_volo]?",
+      "Quando posso accedere al gate per il volo [numero_volo]?"
+    ],
+    "response": [
+      "Il gate per il volo [numero_volo] aprirà alle [ora_apertura]",
+      "L'imbarco per il volo [numero_volo] inizia alle [ora_apertura]",
+      "Dovresti presentarti al gate per il volo [numero_volo] all'orario di apertura previsto alle [ora_apertura]",
+      "Puoi accedere al gate per il volo [numero_volo] a partire dalle [ora_apertura]"
+    ]
+  },
+  {
+    "tag": "Chiusura gate",
+    "patterns": [
+      "A che ora chiude il gate per il volo [numero_volo]?",
+      "Qual è l'orario di chiusura del gate per il volo [numero_volo]?",
+      "Fino a quando posso accedere al gate per il volo [numero_volo]?",
+      "Quando è prevista la chiusura del gate per il volo [numero_volo]?",
+      "A che ora devo essere al gate per il volo [numero_volo]?"
+    ],
+    "response": [
+      "Il gate per il volo [numero_volo] chiuderà alle [ora_chiusura]",
+      "L'accesso al gate per il volo [numero_volo] sarà consentito fino alle [ora_chiusura]",
+      "Dovresti essere al gate per il volo [numero_volo] prima dell'orario di chiusura previsto alle [ora_chiusura]"
+    ]
+  }
+]}
