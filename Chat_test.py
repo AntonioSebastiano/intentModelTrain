@@ -2,7 +2,7 @@ import pickle
 
 import matplotlib.pyplot as plt
 from keras.models import load_model
-model = load_model('chatbot_model.h5')
+model = load_model('model/chatbot_model.h5')
 import json
 import random
 import nltk
@@ -17,9 +17,9 @@ from tensorflow.keras.optimizers import SGD
 import random
 from PIL import Image
 
-intents = json.loads(open('intents.json',encoding='utf-8').read())
-words = pickle.load(open('words1.pkl','rb'))
-classes = pickle.load(open('classes1.pkl','rb'))
+intents = json.loads(open('model/intents.json',encoding='utf-8').read())
+words = pickle.load(open('model/words1.pkl','rb'))
+classes = pickle.load(open('model/classes1.pkl','rb'))
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
